@@ -1,0 +1,347 @@
+charset "utf-8";
+
+/* CSS document */
+
+/*
+
+* CSS TABLE OF CONTENTS
+
+*
+
+* 1.0 - Reset
+
+* 2.0 - Globals
+
+* 3.0 - Fonts
+
+* 4.0 - Body
+
+* 5.0 - Mediaqueries
+
+*/
+
+ 
+
+/*** 1.0 - Reset ***/
+
+*, *:before, *:after{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+ 
+
+body{
+
+    font-family: "Conv_Roboto-Regular", Sans-Serif; /*Font family for entire body */
+
+    font-size: 14px;
+
+    font-weight: normal;
+
+    color: #202124; /* color for entire body */
+
+    line-height: 1.5em;
+
+    background: #f1f3f6;
+
+}
+
+ 
+
+a {
+
+    text-decoration: none;
+
+    outline: 0;
+
+    color: #333; /* color for hyperlinks */
+
+}
+
+ 
+
+ul{
+
+    padding-left: 0;
+
+}
+
+ 
+
+li{
+
+    list-style: none;
+
+}
+
+ 
+
+/*** 2.0 - Globals ***/
+
+ 
+
+h1{
+
+    text-transform: uppercase;
+
+    font-size: 26px;
+
+}
+
+ 
+
+h2, h3 {
+
+    font-weight: 500;
+
+}
+
+ 
+
+h2{
+
+    margin-bottom: 25px;
+
+    text-transform: uppercase;
+
+    font-weight: bold;
+
+}
+
+ 
+
+h2 span{
+
+    vertical-align: bottom;
+
+    margin-left: 20px;
+
+}
+
+ 
+
+h3 {
+
+    color: #1a73e8;
+
+    margin-bottom: 5px;
+
+    text-transform: uppercase;
+
+    font-size: 18px;
+
+}
+
+ 
+
+article {
+
+    margin-bottom: 40px;
+
+}
+
+ 
+
+p {
+
+    margin-bottom: 5px;
+
+}
+
+ 
+
+p span {
+
+    color: #8f9293;
+
+    margin-bottom: 15px;
+
+    display: block;
+
+}
+
+ 
+
+ul li {
+
+    background: url;
+
+    padding-left: 15px;
+
+    line-height: 28px;
+
+}
+
+ 
+
+/*** 3.0 - fonts ***/
+
+@font-face {
+
+    font-family: "Conv_Roboto-Regular";
+
+    src: ;
+
+    src: ;
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+ 
+
+/*** 4.0 - Body ***/
+
+#wrapper {
+
+    background-color: #fff;
+
+    border-radius: 5px;
+
+    box-shadow: o 2px 4px o rgba(0,0,0, .08);
+
+    border-top: 1px solid #eaeaea;
+
+    padding: 30px;
+
+    margin: 20px auto;
+
+    max-width: 900px;
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+ 
+
+header {
+
+    min-height: 40px;
+
+    margin-bottom: 30px;
+
+    border-bottom: 1px dashed #ddd;
+
+    width: 900px;
+
+    float: left;
+
+}
+
+ 
+
+header h1 {
+
+    float: left;
+
+    line-height: 80px; /* here line-height should be equal to height of the class header */
+
+}
+
+ 
+
+header ul li {
+
+    background: none;
+
+    float: right;
+
+    margin-right: 1px;
+
+    line-height: 80px; /* here line-height should be equal to height of the main classheader */
+
+}
+
+ 
+
+header ul li i {
+
+    vertical-align: middle;
+
+    padding-right: 8px;
+
+}
+
+ 
+
+.main-content {
+
+    border-bottom: 1px dashed #ddd;
+
+ 
+
+}
+
+ 
+
+aside{
+
+    width: 25%;
+
+    float: left;
+
+}
+
+ 
+
+.body-content {
+
+    width: 70%;
+
+    float: right;
+
+}
+
+ 
+
+/*** 5.0 . mediaqueries ***/
+
+@media (min-width:320px) and (max-width: 991px) {
+
+   
+
+  h1 {
+
+    color: #fff;
+
+    margin-bottom: 20px;
+
+  }
+
+ 
+
+  h2 {
+
+    background: #f0f0f0;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+  }
+
+ 
+
+  h2 i {
+
+    float: right;
+
+    vertical-align: bottom;
+
+  }
+
+ 
+
+  aside {
+
+    width: 100%;
+
+}
